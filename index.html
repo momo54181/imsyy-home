@@ -18,10 +18,10 @@
     <title>末晨の主页</title>
     <!-- jQuery -->
     <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-y/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Google Fonts -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.geekzu.org/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet"> -->
+    <!-- HarmonyOS Sans -->
+    <!-- 本站 CDN 已开启防盗链，非本站域名不可访问，请更改链接为下方内容，否则自定义字体将失效 -->
+    <!-- https://s1.hdslb.com/bfs/static/jinkela/long/font/regular.css -->
+    <link rel="stylesheet" href="https://cdn.imsyy.top/gh/imsyy/file/font/HarmonyOS_Sans/regular.min.css" />
     <!-- 引入样式 -->
     <link rel="stylesheet" type="text/css"
         href="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-y/bootstrap/5.1.0/css/bootstrap.min.css">
@@ -92,7 +92,7 @@
                             <div class="main-img">
                                 <img id="logo-img" src="./img/icon/logo.png" alt="img">
                                 <div class="img-title">
-                                    <span class="img-title-big" id="logo-text-1">mochen</span>
+                                    <span class="img-title-big" id="logo-text-1">blog.mochen</span>
                                     <span class="img-text" id="logo-text-2">.one</span>
                                 </div>
                             </div>
@@ -101,10 +101,19 @@
                                 <div class="des" id="des">
                                     <i class="fa-solid fa-quote-left"></i>
                                     <div class="des-title"><span id="change">Hello&nbsp;World&nbsp;!</span><br /><span
-                                            id="change1">一个默默无闻的人的主页罢了</span></div>
+                                            id="change1">人间烟火气，最抚凡人心</span></div>
                                     <i class="fa-solid fa-quote-right"></i>
                                 </div>
                             </div>
+                            <!--社交链接-->
+                            <div class="social" id="social">
+                                <a href="https://t.me/MocChen" class="link" id="telegram" target="_blank">
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                                <a id="link-text">通过这里联系我</a>
+                            </div>
+                        </div>
+                    </div>
                     <!--第二屏 Logo-->
                     <div class="logo cards" style="display: none" id="changemore">
                         <a class="logo-text" id="logo-text-small">blog.mochen.one</a>
@@ -191,6 +200,54 @@
                                             </div>
                                         </a>
                                     </div>
+                                    <div class="col 2">
+                                        <a id="link-url-2" href="http://guozhivip.com/" target="_blank">
+                                            <div class="link-card cards">
+                                                <i id="link-icon-2" class="fa-solid fa-cloud"></i>
+                                                <span class="link-name" id="link-name-2">果汁导航</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a id="link-url-3" href="https://1jubt.top/" target="_blank">
+                                            <div class="link-card cards">
+                                                <i id="link-icon-3" class="fa-solid fa-music"></i>
+                                                <span class="link-name" id="link-name-3">聚BT</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--第二组-->
+                                <div class="row" style="margin-top: 1.5rem;">
+                                    <div class="col">
+                                        <a id="link-url-4" href="https://www.google.com/"" target="_blank">
+                                            <div class="link-card cards">
+                                                <i id="link-icon-4" class="fa-solid fa-compass"></i>
+                                                <span class="link-name" id="link-name-4">google</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col 2">
+                                        <a id="link-url-5" href="https://pixivic.com/" target="_blank">
+                                            <div class="link-card cards">
+                                                <i id="link-icon-5" class="fa-solid fa-book-bookmark"></i>
+                                                <span class="link-name" id="link-name-5">pixivic</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a id="link-url-6" href="https://video.bqrdh.com/" target="_blank">
+                                            <div class="link-card cards">
+                                                <i id="link-icon-6" class="fa-solid fa-flask"></i>
+                                                <span class="link-name" id="link-name-6">不求人导航</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--展开菜单按钮-->
                 <div class="menu" id="switchmenu">
                     <a class="munu-button cards" id="menu">
@@ -294,6 +351,16 @@
                         <div class="closebox fixed-top" id="closemore">
                             <i class="fa-solid fa-circle-xmark"></i>
                         </div>
+                        <!--左侧内容-->
+                        <div class="box-left">
+                            <div class="img-title">
+                                <span class="img-title-big" id="logo-title-other">imsyy</span>
+                                <span class="img-text" id="logo-title-other-small">.top</span><br />
+                                <span class="img-text">&nbsp;v&nbsp;3.3</span>
+                                <a href="https://github.com/imsyy/home" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </div>
                             <!--更多内容-->
                             <div class="accordion" id="accordion">
                                 <div class="accordion-item">
@@ -334,6 +401,16 @@
                                         </div>
                                     </div>
                                 </div>
+                        <!--Aplayer-->
+                        <div class="box-right">
+                            <div id="aplayer">
+                                <span>音乐播放器加载失败</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
         <!-- 版权信息 -->
         <footer id="footer" class="fixed-bottom footer">
             <div class="power">
@@ -341,13 +418,13 @@
                     <script>
                         document.write((new Date()).getFullYear());
                     </script>
-                    <a href="https://blog.mochen.one" id="power-text">末晨</a>
+                    <a href="https://imsyy.top" id="power-text">無名</a>
                 </span>
                 <!-- 以下信息请不要修改哦 -->
                 <span id="made">&amp;&nbsp;Made&nbsp;by&nbsp;<a href="https://github.com/imsyy/home"
                         target="_blank">imsyy</a></span>
                 <!-- 站点备案 -->
-                <a href="https://beian.miit.gov.cn" id="beian" target="_blank">&amp;&nbsp;豫ICP备2022018134号-1</a>
+                <a href="https://beian.miit.gov.cn" id="beian" target="_blank">&amp;&nbsp;粤ICP备2022110266号-1</a>
             </div>
             <!-- 歌词显示 -->
             <div id="lrc"></div>
