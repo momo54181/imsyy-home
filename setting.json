@@ -1,14 +1,14 @@
 {
-    "title": "末晨の主页",
+    "title": "莫莫の主页",
     "description": "一个默默无闻的主页",
-    "keywords": "末晨,个人主页",
-    "author": "末晨",
-    "logo_img": "./img/icon/logo.png",
+    "keywords": "莫莫,个人主页",
+    "author": "莫莫",
+    "logo_img": "https://p0.meituan.net/csc/e1fb35b817ad1d0826b1e5221eef18d6112850.webp",
     "logo_text_1": "blog.mochen",
     "logo_text_2": "one",
     "telegram": "Mocchen",
     "link_1": [
-        "https://blog.mochen.one/",
+        "https://blog.mocn.top/",
         "fa-solid fa-blog",
         "博客"
     ],
@@ -37,6 +37,6 @@
         "fa-solid fa-flask",
         "不求人导航"
     ],
-    "Copyright_text": "末晨",
-    "beian": "粤ICP备2022110266号-1"
+    "Copyright_text": "莫莫",
+    "beian": "萌ICP备20230012号"
 }
