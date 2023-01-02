@@ -4,13 +4,39 @@
     "keywords": "末晨,个人主页",
     "author": "末晨",
     "logo_img": "./img/icon/logo.png",
-    "logo_text_1": "blog.mochen",
+    "logo_text_1": "mochen",
     "logo_text_2": "one",
+    "telegram": "Mocchen",
     "link_1": [
         "https://blog.mochen.one/",
         "fa-solid fa-blog",
         "博客"
     ],
+    "link_2": [
+        "https://drive.imsyy.top/",
+        "fa-solid fa-cloud",
+        "果汁导航"
+    ],
+    "link_3": [
+        "https://1jubt.top/",
+        "fa-solid fa-music",
+        "聚BT"
+    ],
+    "link_4": [
+        "https://www.google.com/",
+        "fa-solid fa-compass",
+        "google"
+    ],
+    "link_5": [
+        "https://pixivic.com/",
+        "fa-solid fa-book-bookmark",
+        "pixivic"
+    ],
+    "link_6": [
+        "https://video.bqrdh.com/",
+        "fa-solid fa-flask",
+        "实验室不求人导航"
+    ],
     "Copyright_text": "末晨",
-    "beian": "粤ICP备2022018134号-1"
+    "beian": "粤ICP备2022110266号-1"
 }
